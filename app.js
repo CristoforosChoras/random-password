@@ -1,4 +1,4 @@
-const passwordButton = document.querySelector("button")
+const passwordButton = document.querySelector("label")
 
 
 
