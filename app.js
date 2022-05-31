@@ -1,14 +1,15 @@
 const passwordButton = document.querySelector("label");
-const div = document.querySelector(".mainDiv")
+const div = document.querySelector(".mainDiv");
+const body = document.querySelector("body");
 
-
-
-div.style.width="100px"
-div.style.height="100px"
-div.style.backgroundColor = "black"
-
-
-
+passwordButton.style.color = "white";
+div.style.width = "500px";
+div.style.height = "80px";
+div.style.backgroundColor = "black";
+div.style.display = "flex";
+div.style.flexDirection = "column";
+div.style.justifyContent = "center";
+div.style.alignItems = "center";
 
 function generatePassword() {
   let length = 8,
